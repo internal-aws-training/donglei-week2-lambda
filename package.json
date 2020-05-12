@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-demo",
+  "version": "1.0.0",
+  "description": "aws lambda nodejs demo",
+  "main": "index.js",
+  "dependencies": {
+    "sharp": "^0.25.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "create": "scripts/create_lambda.sh ldong-lambda",
+    "deploy": "scripts/deploy_lambda.sh ldong-lambda"
+  },
+  "author": "",
+  "license": "ISC"
+}
