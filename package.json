@@ -9,6 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "create": "scripts/create_lambda.sh ldong-lambda",
+    "invoke": "scripts/invoke_lambda.sh ldong-lambda-resize-1UZX6JYQ0CHRK",
     "deploy": "scripts/deploy_lambda.sh ldong-lambda"
   },
   "author": "",
