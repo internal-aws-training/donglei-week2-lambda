@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
-set -euo pipefai
+set -euo pipefail
 
 FUNCTIONNAME=$1
 
-aws lambda invoke --function-name $FUNCTIONNAME  --invocation-type Event \
-    --payload file://inputFile.txt output.json
+aws lambda invoke \
+    --function-name $FUNCTIONNAME \
+    --invocation-type Event \
+    --payload file://input.json \
+    output.json
 
 cat output.json
 
