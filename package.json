@@ -4,7 +4,7 @@
   "description": "aws lambda nodejs demo",
   "main": "index.js",
   "dependencies": {
-    "sharp": "^0.25.2"
+    "sharp": "^0.30.5"
   },
   "devDependencies": {},
   "scripts": {
